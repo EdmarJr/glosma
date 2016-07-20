@@ -1,4 +1,4 @@
-package br.com.glosatime1.service;
+package br.com.glosma.associacao.faturas.commons.infra;
 
 import java.io.File;
 import java.io.FileOutputStream;

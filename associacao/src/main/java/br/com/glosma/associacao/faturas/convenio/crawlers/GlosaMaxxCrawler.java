@@ -1,4 +1,4 @@
-package br.com.glosatime1.service;
+package br.com.glosma.associacao.faturas.convenio.crawlers;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -9,8 +9,6 @@ import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-
-import br.com.glosma.associacao.faturas.convenio.crawlers.Crawler;
 
 public class GlosaMaxxCrawler implements Crawler {
 	private static GlosaMaxxCrawler instance;

@@ -1,8 +1,8 @@
 package br.com.glosma.associacao.faturas.convenio;
 
-import br.com.glosatime1.service.GlosaMaxxCrawler;
 import br.com.glosma.associacao.faturas.commons.enums.TipoAquivoEnum;
 import br.com.glosma.associacao.faturas.convenio.crawlers.Crawler;
+import br.com.glosma.associacao.faturas.convenio.crawlers.GlosaMaxxCrawler;
 import br.com.glosma.associacao.faturas.convenio.enums.IOpcoesConvenioEnum;
 import br.com.glosma.associacao.faturas.convenio.glosamaxx.ContainerDadosGlosaMaxxCSV;
 import br.com.glosma.associacao.faturas.convenio.glosamaxx.ContainerDadosGlosaMaxxCSVAdapter;
