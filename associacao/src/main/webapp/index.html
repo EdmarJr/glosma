@@ -1,0 +1,27 @@
+<html>
+<script src="./angular.min.js"></script>
+<script src="./app-angular.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+<body ng-app="associacao" ng-controller="ControllerPrincipal">
+
+<table class="table" >
+	<thead>
+		<td>Código Procedimento
+		<td>Valor Informado
+		<td>Valor Liberado
+		<td>Status
+	</thead>
+	<tbody>
+		<tr ng-repeat="resultadoProcedimento in resultadosProcedimentos">
+			<td>{{resultadoProcedimento.codigoProcedimento}}</td>
+			<td>{{resultadoProcedimento.valorInformado}}</td>
+			<td>{{resultadoProcedimento.valorLiberado}}</td> 
+			<td><span ng-if="resultadoProcedimento.valorLiberado && resultadoProcedimento.valorInformado && (resultadoProcedimento.valorLiberado == resultadoProcedimento.valorInformado)">PAGO</span></td>
+		</tr>
+	</tbody>
+
+</table>
+</body>
+</html>
